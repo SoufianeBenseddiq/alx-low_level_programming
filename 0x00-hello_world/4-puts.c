@@ -1,5 +1,8 @@
 #include <stdio.h>
-/*main function puts a phrase and returns 0*/
+/**
+ * main - A program that prints a line with puts function
+ * return:0 (Success)
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
