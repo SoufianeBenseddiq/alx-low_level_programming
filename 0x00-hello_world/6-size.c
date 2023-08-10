@@ -13,8 +13,6 @@ printf("Size of int: %lu byte(s)\n", (unsigned long)sizeof(int));
 printf("Size of long int: %lu byte(s)\n", (unsigned long)sizeof(long int));
 printf("Size of long long int: %lu byte(s)\n", (unsigned long)sizeof(long long int));
 printf("Size of float: %lu byte(s)\n", (unsigned long)sizeof(float));
-printf("Size of double: %lu byte(s)\n", (unsigned long)sizeof(double));
-printf("Size of long double: %lu byte(s)\n", (unsigned long)sizeof(long double));
 return (0);
 }
 
