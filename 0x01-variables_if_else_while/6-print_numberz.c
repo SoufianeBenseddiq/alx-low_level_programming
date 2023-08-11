@@ -1,17 +1,21 @@
 #include <stdio.h>
+/**
+ * main - Entry point of the program
+ *
+ * Description: Prints the digits from '0' to '8' using the ASCII values,
+ *              followed by a new line.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-putchar('0');
-putchar('1');
-putchar('2');
-putchar('3');
-putchar('4');
-putchar('5');
-putchar('6');
-putchar('7');
-putchar('8');
-putchar('9');
-putchar('\n');
+int a = 48;
+while (a < 57)
+{
+putchar(a);
+a++;
+}
+putchar("\n");
 return (0);
 }
 
