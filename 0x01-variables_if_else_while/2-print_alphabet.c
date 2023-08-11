@@ -9,13 +9,13 @@
  */
 int main(void)
 {
-char letter = 'a';  // Start with the lowercase 'a'
-while (letter <= 'z')  // Loop until 'z'
+char letter = 'a';
+while (letter <= 'z')
 {
-putchar(letter);  // Print the current letter
-letter++;  // Move to the next letter
+putchar(letter);
+letter++;
 }
-putchar('\n');  // Print a newline character at the end
+putchar('\n');
 return (0);
 }
 
