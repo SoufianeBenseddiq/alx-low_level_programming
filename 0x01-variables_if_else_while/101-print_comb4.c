@@ -4,7 +4,8 @@
  *
  * Description: Prints all possible different combinations of three digits,
  *              separated by commas and spaces, in ascending order.
- *              The three digits must be different, and certain combinations are considered the same.
+ *              The three digits must be different, and certain
+ *              combinations are considered the same.
  *
  * Return: Always 0 (Success)
  */
