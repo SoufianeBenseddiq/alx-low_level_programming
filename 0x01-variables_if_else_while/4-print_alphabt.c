@@ -14,13 +14,11 @@ char lowercase = 'a';
 char uppercase = 'A';
 while (lowercase <= 'z')
 {
-putchar(lowercase);
-lowercase++;
-}
-while (uppercase <= 'Z')
+if (lowercase != 'e' && lowercase != 'q')
 {
-putchar(uppercase);
-uppercase++;
+putchar(lowercase);
+}
+lowercase++;
 }
 return (0);
 }
