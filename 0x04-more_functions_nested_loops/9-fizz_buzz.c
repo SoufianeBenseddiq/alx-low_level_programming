@@ -1,3 +1,4 @@
+#include <stdio>
 #include "main.h"
 /**
  * main - prints the numbers from 1 to 100
@@ -11,13 +12,13 @@ int i;
 for (i = 1; i <= 100; i++)
 {
 if (i % 3 == 0 && i % 5 == 0)
-_putchar('FizzBuzz');
+printf("FizzBuzz");
 else if (i % 3 == 0)
-_putchar('Fizz');
+printf("Fizz");
 else if (i % 5 == 0)
-_putchar('Buzz');
+printf("Buzz");
 else
-_putchar('i');
+printf("i");
 }
 }
 
