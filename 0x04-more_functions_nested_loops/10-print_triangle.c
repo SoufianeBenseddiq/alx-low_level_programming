@@ -1,28 +1,28 @@
 #include "main.h"
+
 /**
- * print_triangle - entry point
- * Description:i prints diagonals
- * @size: size of the triangle
- * Return: No return value (void)
+ * print_triangle - Prints a triangle using '#' characters
+ * @size: The size of the triangle
  */
-void print_triangle(int  size)
+void print_triangle(int size)
 {
-int row, hashes, spaces;
-if (size <= 0)
-_putchar('\n');
-else
-{
-for (row = 1; row <= size; row++)
-{
-for (spaces = size - row; spaces >= 1; spaces --)
-{
-_putchar(' ');
+    if (size <= 0)
+    {
+        _putchar('\n');
+        return;
+    }
+
+    int i, j;
+
+    for (i = 1; i <= size; i++)
+    {
+        for (j = 1; j <= size - i; j++)
+            _putchar(' ');
+
+        for (j = 1; j <= i; j++)
+            _putchar('#');
+
+        _putchar('\n');
+    }
 }
-for (hashes = 1; hashes <= row; hashes++)
-{
-_putchar('#');
-}
-_putchar('\n');
-}
-}
-}
+
