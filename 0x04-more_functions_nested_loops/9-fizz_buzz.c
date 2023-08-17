@@ -23,6 +23,6 @@ else
 if (i < 100)
 	printf(" ");
 }
-_putchar('\n');
+printf('\n');
 return (0);
 }
