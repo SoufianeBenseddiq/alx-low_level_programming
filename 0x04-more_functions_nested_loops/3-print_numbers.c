@@ -2,7 +2,7 @@
 /**
  * print_numbers - Prints digits from 0 to 9
  *
- * Return: No return value (void)
+ * Return: Always 0
  */
 void print_numbers(void)
 {
